@@ -569,7 +569,7 @@ static int apply_platform_patches(void)
 }
 
 // called via RPC only, cpu0 triggers on cpu1
-static void change_mmu_tables_cpu1(void *)
+static void change_mmu_tables_cpu1(void *unused)
 {
 
 }
